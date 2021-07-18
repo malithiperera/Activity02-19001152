@@ -12,7 +12,7 @@ object primeSeq extends App{
   }
 
 
-  println("Enetr the number:")
+  println("Enter the number:")
   val b=scala.io.StdIn.readInt()
   var i=0;
   for (i<-2 until b )
